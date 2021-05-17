@@ -56,11 +56,11 @@ export const Heading = Template.bind({});
 
 Heading.args = { ...Body.args, heading: true, size: 'lg' };
 
-// export const Truncate = Template.bind({});
+export const Truncate = Template.bind({});
 
-// Truncate.args = {
-//   ...Body.args,
-//   children:
-//     'Vestibulum ac tellus vel velit malesuada molestie. Aliquam lectus augue, maximus quis ullamcorper sed, bibendum quis erat. Fusce sit amet efficitur nulla, at mattis mi. Integer vitae tempus tellus. In nec enim porttitor diam posuere commodo eu quis eros. Pellentesque urna erat, auctor non molestie vel, aliquet et leo. Integer eu feugiat libero. Maecenas ultricies lacus sit amet elit accumsan, id sodales nisl finibus. Curabitur nec diam sed quam vehicula laoreet a nec augue. Fusce efficitur pharetra nunc, id auctor metus interdum ut. Aliquam arcu nisi, elementum at pretium ac, eleifend sed tortor. Proin tempus erat sit amet lectus ultricies, vitae semper mauris interdum. Aliquam metus nisi, venenatis ac posuere scelerisque, facilisis ut purus. ',
-//   truncate: 2,
-// };
+Truncate.args = {
+  ...Body.args,
+  children:
+    'Vestibulum ac tellus vel velit malesuada molestie. Aliquam lectus augue, maximus quis ullamcorper sed, bibendum quis erat. Fusce sit amet efficitur nulla, at mattis mi. Integer vitae tempus tellus. In nec enim porttitor diam posuere commodo eu quis eros. Pellentesque urna erat, auctor non molestie vel, aliquet et leo. Integer eu feugiat libero. Maecenas ultricies lacus sit amet elit accumsan, id sodales nisl finibus. Curabitur nec diam sed quam vehicula laoreet a nec augue. Fusce efficitur pharetra nunc, id auctor metus interdum ut. Aliquam arcu nisi, elementum at pretium ac, eleifend sed tortor. Proin tempus erat sit amet lectus ultricies, vitae semper mauris interdum. Aliquam metus nisi, venenatis ac posuere scelerisque, facilisis ut purus. ',
+  truncate: 2,
+};
